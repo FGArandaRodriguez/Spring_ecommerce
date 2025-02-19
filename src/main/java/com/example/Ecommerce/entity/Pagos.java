@@ -6,7 +6,6 @@ import lombok.*;
 
 @Entity
 @Table(name = "Pagos")
-import lombok.*;
 @Getter
 @Setter
 @NoArgsConstructor
