@@ -1,0 +1,12 @@
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/EcommerceApplication.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Carrito.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Comentarios.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/DetallesPedido.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Favoritos.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/HistorialCompras.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Logs.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Pagos.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Pedido.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Producto.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Usuario.java
+/Users/franklingiovanniarandarodriguez/Documents/Spring_ecommerce/src/main/java/com/example/Ecommerce/entity/Valoraciones.java

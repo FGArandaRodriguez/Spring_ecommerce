@@ -1,0 +1,16 @@
+com/example/microservice/entity/EstadoPedido.class
+com/example/microservice/entity/Favoritos.class
+com/example/microservice/entity/HistorialCompras.class
+com/example/microservice/entity/Comentarios.class
+com/example/microservice/entity/Logs.class
+com/example/microservice/entity/Usuario$UsuarioBuilder.class
+com/example/microservice/entity/Valoraciones.class
+com/example/microservice/entity/Pedido.class
+com/example/Ecommerce/EcommerceApplication.class
+com/example/microservice/entity/Pagos.class
+com/example/microservice/entity/DetallesPedido.class
+com/example/microservice/entity/Usuario.class
+com/example/microservice/entity/Producto.class
+com/example/microservice/entity/EstadoPago.class
+com/example/microservice/entity/Carrito.class
+com/example/microservice/entity/Rol.class
