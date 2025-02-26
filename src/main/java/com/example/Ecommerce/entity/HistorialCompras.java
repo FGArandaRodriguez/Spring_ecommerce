@@ -1,4 +1,4 @@
-package com.example.microservice.entity;
+package com.example.Ecommerce.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
@@ -17,10 +17,10 @@ public class HistorialCompras {
     private Long id;
     @ManyToOne
     @JoinColumn(name = "usuario_id")
-    private Usuario usuario;
+    private com.example.Ecommerce.entity.Usuario usuario;
     @ManyToOne
     @JoinColumn(name = "pedido_id")
-    private Pedido pedido;
+    private com.example.Ecommerce.entity.Pedido pedido;
     private LocalDateTime fecha = LocalDateTime.now();
 
     // Getters y Setters

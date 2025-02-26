@@ -1,4 +1,4 @@
-package com.example.microservice.entity;
+package com.example.Ecommerce.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,10 +16,10 @@ public class DetallesPedido {
     private Long id;
     @ManyToOne
     @JoinColumn(name = "pedido_id")
-    private Pedido pedido;
+    private com.example.Ecommerce.entity.Pedido pedido;
     @ManyToOne
     @JoinColumn(name = "producto_id")
-    private Producto producto;
+    private com.example.Ecommerce.entity.Producto producto;
     private Integer cantidad;
     private Double precio;
 

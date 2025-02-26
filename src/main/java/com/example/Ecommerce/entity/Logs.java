@@ -1,4 +1,4 @@
-package com.example.microservice.entity;
+package com.example.Ecommerce.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
@@ -17,7 +17,7 @@ public class Logs {
     private Long id;
     @ManyToOne
     @JoinColumn(name = "usuario_id")
-    private Usuario usuario;
+    private com.example.Ecommerce.entity.Usuario usuario;
     private String accion;
     private LocalDateTime fecha = LocalDateTime.now();
 

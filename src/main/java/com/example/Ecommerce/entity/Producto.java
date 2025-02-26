@@ -1,4 +1,4 @@
-package com.example.microservice.entity;
+package com.example.Ecommerce.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

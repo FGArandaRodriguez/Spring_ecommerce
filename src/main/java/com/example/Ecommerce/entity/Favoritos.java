@@ -1,4 +1,4 @@
-package com.example.microservice.entity;
+package com.example.Ecommerce.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
@@ -17,10 +17,10 @@ public class Favoritos {
     private Long id;
     @ManyToOne
     @JoinColumn(name = "usuario_id")
-    private Usuario usuario;
+    private com.example.Ecommerce.entity.Usuario usuario;
     @ManyToOne
     @JoinColumn(name = "producto_id")
-    private Producto producto;
+    private com.example.Ecommerce.entity.Producto producto;
     private LocalDateTime fechaAgregado = LocalDateTime.now();
 
     // Getters y Setters

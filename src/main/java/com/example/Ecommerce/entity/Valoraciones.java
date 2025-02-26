@@ -1,5 +1,7 @@
-package com.example.microservice.entity;
+package com.example.Ecommerce.entity;
 
+import com.example.Ecommerce.entity.Producto;
+import com.example.Ecommerce.entity.Usuario;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import lombok.*;

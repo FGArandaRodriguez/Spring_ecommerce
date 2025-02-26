@@ -1,6 +1,6 @@
-package com.example.microservice.repository;
+package com.example.Ecommerce.repository;
 
-import com.example.microservice.entity.DetallesPedido;
+import com.example.Ecommerce.entity.DetallesPedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

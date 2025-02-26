@@ -1,4 +1,4 @@
-package com.example.microservice.entity;
+package com.example.Ecommerce.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
@@ -6,7 +6,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "Carrito")
-import lombok.*;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -18,10 +18,10 @@ public class Carrito {
     private Long id;
     @ManyToOne
     @JoinColumn(name = "usuario_id")
-    private Usuario usuario;
+    private com.example.Ecommerce.entity.Usuario usuario;
     @ManyToOne
     @JoinColumn(name = "producto_id")
-    private Producto producto;
+    private com.example.Ecommerce.entity.Producto producto;
     private Integer cantidad;
     private LocalDateTime fechaCreacion = LocalDateTime.now();
 
